@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/addBtn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".AddBooks">
+
+
+    <EditText
+        android:id="@+id/txtTitle"
+        android:layout_width="388dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="@string/enter_textbook_title"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.347"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.341"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/txtSubject"
+        android:layout_width="395dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/enter_textbook_subject"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.687"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        tools:ignore="TextContrastCheck" />
+
+    <Spinner
+        android:id="@+id/spinnerStream"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:entries="@array/streams"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036" />
+
+    <Button
+        android:id="@+id/btnAddBook"
+        android:layout_width="135dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#23CAB6"
+        android:text="@string/add_book"
+        android:textColor="#0B0A0A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.818" />
+
+    <EditText
+        android:id="@+id/txtDescription"
+        android:layout_width="403dp"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:hint="@string/add_your_own_description_about_the_book"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine|text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.673"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.628"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/txtIsbn"
+        android:layout_width="396dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="@string/add_book_isbn_number"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.482"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
