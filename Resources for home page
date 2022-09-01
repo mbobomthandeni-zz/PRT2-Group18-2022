@@ -1,0 +1,47 @@
+// Background shape
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    android:shape="rectangle">
+    <solid android:color="@color/colorCyan" />
+
+    <corners
+        android:topLeftRadius="400dp"
+        android:topRightRadius="0dp">
+
+    </corners>
+</shape>
+//About us logo
+<vector android:height="50dp" android:tint="#000000"
+    android:viewportHeight="24" android:viewportWidth="24"
+    android:width="50dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@android:color/white" android:pathData="M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2zM13,17h-2v-6h2v6zM13,9h-2L11,7h2v2z"/>
+</vector>
+//Exit Logo
+<vector android:height="50dp" android:tint="#000000"
+    android:viewportHeight="24" android:viewportWidth="24"
+    android:width="50dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@android:color/white" android:pathData="M10.09,15.59L11.5,17l5,-5 -5,-5 -1.41,1.41L12.67,11H3v2h9.67l-2.58,2.59zM19,3H5c-1.11,0 -2,0.9 -2,2v4h2V5h14v14H5v-4H3v4c0,1.1 0.89,2 2,2h14c1.1,0 2,-0.9 2,-2V5c0,-1.1 -0.9,-2 -2,-2z"/>
+</vector>
+//Sell books logo
+<vector android:height="50dp" android:tint="#000000"
+    android:viewportHeight="24" android:viewportWidth="24"
+    android:width="50dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@android:color/white" android:pathData="M21,5c-1.11,-0.35 -2.33,-0.5 -3.5,-0.5c-1.95,0 -4.05,0.4 -5.5,1.5c-1.45,-1.1 -3.55,-1.5 -5.5,-1.5S2.45,4.9 1,6v14.65c0,0.25 0.25,0.5 0.5,0.5c0.1,0 0.15,-0.05 0.25,-0.05C3.1,20.45 5.05,20 6.5,20c1.95,0 4.05,0.4 5.5,1.5c1.35,-0.85 3.8,-1.5 5.5,-1.5c1.65,0 3.35,0.3 4.75,1.05c0.1,0.05 0.15,0.05 0.25,0.05c0.25,0 0.5,-0.25 0.5,-0.5V6C22.4,5.55 21.75,5.25 21,5zM21,18.5c-1.1,-0.35 -2.3,-0.5 -3.5,-0.5c-1.7,0 -4.15,0.65 -5.5,1.5V8c1.35,-0.85 3.8,-1.5 5.5,-1.5c1.2,0 2.4,0.15 3.5,0.5V18.5z"/>
+    <path android:fillColor="@android:color/white" android:pathData="M17.5,10.5c0.88,0 1.73,0.09 2.5,0.26V9.24C19.21,9.09 18.36,9 17.5,9c-1.7,0 -3.24,0.29 -4.5,0.83v1.66C14.13,10.85 15.7,10.5 17.5,10.5z"/>
+    <path android:fillColor="@android:color/white" android:pathData="M13,12.49v1.66c1.13,-0.64 2.7,-0.99 4.5,-0.99c0.88,0 1.73,0.09 2.5,0.26V11.9c-0.79,-0.15 -1.64,-0.24 -2.5,-0.24C15.8,11.66 14.26,11.96 13,12.49z"/>
+    <path android:fillColor="@android:color/white" android:pathData="M17.5,14.33c-1.7,0 -3.24,0.29 -4.5,0.83v1.66c1.13,-0.64 2.7,-0.99 4.5,-0.99c0.88,0 1.73,0.09 2.5,0.26v-1.52C19.21,14.41 18.36,14.33 17.5,14.33z"/>
+</vector>
+//profile logo
+<vector android:height="50dp" android:tint="#000000"
+    android:viewportHeight="24" android:viewportWidth="24"
+    android:width="50dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@android:color/white" android:pathData="M12,12c2.21,0 4,-1.79 4,-4s-1.79,-4 -4,-4 -4,1.79 -4,4 1.79,4 4,4zM12,14c-2.67,0 -8,1.34 -8,4v2h16v-2c0,-2.66 -5.33,-4 -8,-4z"/>
+</vector>
+//Buy books logo
+<vector android:height="50dp" android:tint="#121313"
+    android:viewportHeight="24" android:viewportWidth="24"
+    android:width="50dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@android:color/white" android:pathData="M17.21,9l-4.38,-6.56c-0.19,-0.28 -0.51,-0.42 -0.83,-0.42 -0.32,0 -0.64,0.14 -0.83,0.43L6.79,9L2,9c-0.55,0 -1,0.45 -1,1 0,0.09 0.01,0.18 0.04,0.27l2.54,9.27c0.23,0.84 1,1.46 1.92,1.46h13c0.92,0 1.69,-0.62 1.93,-1.46l2.54,-9.27L23,10c0,-0.55 -0.45,-1 -1,-1h-4.79zM9,9l3,-4.4L15,9L9,9zM12,17c-1.1,0 -2,-0.9 -2,-2s0.9,-2 2,-2 2,0.9 2,2 -0.9,2 -2,2z"/>
+</vector>
+
+
+
